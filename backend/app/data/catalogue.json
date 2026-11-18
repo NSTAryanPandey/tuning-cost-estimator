@@ -1,0 +1,352 @@
+{
+  "_note": "Price catalogue: tuning rules per engine type, parts and labour rates. Rough estimates in INR, not real quotes.",
+  "stage_rules": [
+    {
+      "engine_type": "petrol_turbo",
+      "stage": 1,
+      "labour_hours_min": 2,
+      "labour_hours_max": 2,
+      "ecu_fee_min": 25000,
+      "ecu_fee_max": 40000,
+      "hp_gain_pct_min": 15,
+      "hp_gain_pct_max": 25,
+      "torque_gain_pct_min": 20,
+      "torque_gain_pct_max": 30,
+      "software_label": "ECU remap licence",
+      "labour_rate_factor": 1.0
+    },
+    {
+      "engine_type": "petrol_turbo",
+      "stage": 2,
+      "labour_hours_min": 4,
+      "labour_hours_max": 5,
+      "ecu_fee_min": 0,
+      "ecu_fee_max": 0,
+      "hp_gain_pct_min": 25,
+      "hp_gain_pct_max": 35,
+      "torque_gain_pct_min": 30,
+      "torque_gain_pct_max": 40,
+      "software_label": "ECU remap licence",
+      "labour_rate_factor": 1.0
+    },
+    {
+      "engine_type": "petrol_turbo",
+      "stage": 3,
+      "labour_hours_min": 8,
+      "labour_hours_max": 12,
+      "ecu_fee_min": 0,
+      "ecu_fee_max": 0,
+      "hp_gain_pct_min": 50,
+      "hp_gain_pct_max": 80,
+      "torque_gain_pct_min": 50,
+      "torque_gain_pct_max": 70,
+      "software_label": "ECU remap licence",
+      "labour_rate_factor": 1.0
+    },
+    {
+      "engine_type": "diesel_turbo",
+      "stage": 1,
+      "labour_hours_min": 2,
+      "labour_hours_max": 2,
+      "ecu_fee_min": 20000,
+      "ecu_fee_max": 35000,
+      "hp_gain_pct_min": 20,
+      "hp_gain_pct_max": 30,
+      "torque_gain_pct_min": 25,
+      "torque_gain_pct_max": 35,
+      "software_label": "ECU remap licence",
+      "labour_rate_factor": 1.0
+    },
+    {
+      "engine_type": "diesel_turbo",
+      "stage": 2,
+      "labour_hours_min": 4,
+      "labour_hours_max": 5,
+      "ecu_fee_min": 0,
+      "ecu_fee_max": 0,
+      "hp_gain_pct_min": 30,
+      "hp_gain_pct_max": 40,
+      "torque_gain_pct_min": 35,
+      "torque_gain_pct_max": 45,
+      "software_label": "ECU remap licence",
+      "labour_rate_factor": 1.0
+    },
+    {
+      "engine_type": "diesel_turbo",
+      "stage": 3,
+      "labour_hours_min": 8,
+      "labour_hours_max": 12,
+      "ecu_fee_min": 0,
+      "ecu_fee_max": 0,
+      "hp_gain_pct_min": 50,
+      "hp_gain_pct_max": 70,
+      "torque_gain_pct_min": 50,
+      "torque_gain_pct_max": 65,
+      "software_label": "ECU remap licence",
+      "labour_rate_factor": 1.0
+    },
+    {
+      "engine_type": "petrol_na",
+      "stage": 1,
+      "labour_hours_min": 2,
+      "labour_hours_max": 2,
+      "ecu_fee_min": 12000,
+      "ecu_fee_max": 20000,
+      "hp_gain_pct_min": 5,
+      "hp_gain_pct_max": 8,
+      "torque_gain_pct_min": 5,
+      "torque_gain_pct_max": 8,
+      "software_label": "ECU remap licence",
+      "labour_rate_factor": 1.0
+    },
+    {
+      "engine_type": "petrol_na",
+      "stage": 2,
+      "labour_hours_min": 4,
+      "labour_hours_max": 5,
+      "ecu_fee_min": 0,
+      "ecu_fee_max": 0,
+      "hp_gain_pct_min": 8,
+      "hp_gain_pct_max": 12,
+      "torque_gain_pct_min": 8,
+      "torque_gain_pct_max": 12,
+      "software_label": "ECU remap licence",
+      "labour_rate_factor": 1.0
+    },
+    {
+      "engine_type": "petrol_na",
+      "stage": 3,
+      "labour_hours_min": 10,
+      "labour_hours_max": 16,
+      "ecu_fee_min": 0,
+      "ecu_fee_max": 0,
+      "hp_gain_pct_min": 30,
+      "hp_gain_pct_max": 50,
+      "torque_gain_pct_min": 30,
+      "torque_gain_pct_max": 45,
+      "software_label": "ECU remap licence",
+      "labour_rate_factor": 1.0
+    },
+    {
+      "engine_type": "bike_petrol",
+      "stage": 1,
+      "labour_hours_min": 1,
+      "labour_hours_max": 1.5,
+      "ecu_fee_min": 5000,
+      "ecu_fee_max": 18000,
+      "hp_gain_pct_min": 5,
+      "hp_gain_pct_max": 8,
+      "torque_gain_pct_min": 5,
+      "torque_gain_pct_max": 8,
+      "software_label": "Fuel controller / ECU flash",
+      "labour_rate_factor": 0.5
+    },
+    {
+      "engine_type": "bike_petrol",
+      "stage": 2,
+      "labour_hours_min": 2,
+      "labour_hours_max": 3,
+      "ecu_fee_min": 0,
+      "ecu_fee_max": 0,
+      "hp_gain_pct_min": 10,
+      "hp_gain_pct_max": 15,
+      "torque_gain_pct_min": 8,
+      "torque_gain_pct_max": 12,
+      "software_label": "Fuel controller / ECU flash",
+      "labour_rate_factor": 0.5
+    },
+    {
+      "engine_type": "bike_petrol",
+      "stage": 3,
+      "labour_hours_min": 6,
+      "labour_hours_max": 10,
+      "ecu_fee_min": 0,
+      "ecu_fee_max": 0,
+      "hp_gain_pct_min": 20,
+      "hp_gain_pct_max": 35,
+      "torque_gain_pct_min": 18,
+      "torque_gain_pct_max": 30,
+      "software_label": "Fuel controller / ECU flash",
+      "labour_rate_factor": 0.5
+    }
+  ],
+  "parts": [
+    {
+      "id": 1,
+      "name": "High-flow air intake",
+      "category": "part",
+      "stage": 2,
+      "price_min": 8000,
+      "price_max": 20000,
+      "engine_types": [
+        "petrol_turbo",
+        "diesel_turbo",
+        "petrol_na"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Performance downpipe",
+      "category": "part",
+      "stage": 2,
+      "price_min": 25000,
+      "price_max": 55000,
+      "engine_types": [
+        "petrol_turbo",
+        "diesel_turbo"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Exhaust header (extractor)",
+      "category": "part",
+      "stage": 2,
+      "price_min": 18000,
+      "price_max": 40000,
+      "engine_types": [
+        "petrol_na"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Upgraded turbocharger",
+      "category": "part",
+      "stage": 3,
+      "price_min": 90000,
+      "price_max": 250000,
+      "engine_types": [
+        "petrol_turbo",
+        "diesel_turbo"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Turbo conversion kit",
+      "category": "part",
+      "stage": 3,
+      "price_min": 180000,
+      "price_max": 400000,
+      "engine_types": [
+        "petrol_na"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Forged internals (pistons + rods)",
+      "category": "part",
+      "stage": 3,
+      "price_min": 150000,
+      "price_max": 350000,
+      "engine_types": [
+        "petrol_turbo",
+        "diesel_turbo",
+        "petrol_na"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Custom dyno tuning session",
+      "category": "service",
+      "stage": 3,
+      "price_min": 8000,
+      "price_max": 15000,
+      "engine_types": [
+        "petrol_turbo",
+        "diesel_turbo",
+        "petrol_na"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Performance air filter",
+      "category": "part",
+      "stage": 1,
+      "price_min": 1500,
+      "price_max": 6000,
+      "engine_types": [
+        "bike_petrol"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Full exhaust system",
+      "category": "part",
+      "stage": 2,
+      "price_min": 12000,
+      "price_max": 60000,
+      "engine_types": [
+        "bike_petrol"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Big-bore kit",
+      "category": "part",
+      "stage": 3,
+      "price_min": 20000,
+      "price_max": 90000,
+      "engine_types": [
+        "bike_petrol"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Performance camshaft",
+      "category": "part",
+      "stage": 3,
+      "price_min": 10000,
+      "price_max": 35000,
+      "engine_types": [
+        "bike_petrol"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Dyno tuning session (bike)",
+      "category": "service",
+      "stage": 3,
+      "price_min": 3000,
+      "price_max": 8000,
+      "engine_types": [
+        "bike_petrol"
+      ]
+    }
+  ],
+  "labour_rates": [
+    {
+      "city": "Bangalore",
+      "rate_min": 1200,
+      "rate_max": 2000
+    },
+    {
+      "city": "Mumbai",
+      "rate_min": 1300,
+      "rate_max": 2200
+    },
+    {
+      "city": "Delhi",
+      "rate_min": 1200,
+      "rate_max": 2000
+    },
+    {
+      "city": "Hyderabad",
+      "rate_min": 1000,
+      "rate_max": 1800
+    },
+    {
+      "city": "Chennai",
+      "rate_min": 1000,
+      "rate_max": 1800
+    },
+    {
+      "city": "Pune",
+      "rate_min": 1000,
+      "rate_max": 1800
+    },
+    {
+      "city": "Prayagraj",
+      "rate_min": 600,
+      "rate_max": 1000
+    }
+  ]
+}

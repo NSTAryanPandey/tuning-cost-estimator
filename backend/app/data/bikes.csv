@@ -1,0 +1,129 @@
+id,vehicle_class,make,model,engine_name,engine_type,year_from,year_to,stock_hp,stock_torque_nm,parts_multiplier,body_type
+1001,bike,Hero,Splendor Plus,97cc,bike_petrol,2018,,8.0,8.1,0.8,commuter
+1002,bike,Hero,HF Deluxe,97cc,bike_petrol,2018,,8.0,8.1,0.8,commuter
+1003,bike,Hero,Glamour,125cc,bike_petrol,2019,,10.7,10.6,0.8,commuter
+1004,bike,Hero,Super Splendor,125cc,bike_petrol,2020,,10.7,10.6,0.8,commuter
+1005,bike,Hero,Xtreme 125R,125cc,bike_petrol,2024,,11.4,10.5,0.8,naked
+1006,bike,Hero,Xtreme 160R 4V,163cc,bike_petrol,2023,,16.9,14.6,0.9,naked
+1007,bike,Hero,Xpulse 200 4V,200cc,bike_petrol,2021,,19.0,17.4,0.9,adventure
+1008,bike,Hero,Xpulse 210,210cc,bike_petrol,2025,,24.6,20.7,1.0,adventure
+1009,bike,Hero,Mavrick 440,440cc,bike_petrol,2024,,27.0,36.0,1.1,naked
+1010,bike,Hero,Destini 125,125cc,bike_petrol,2019,,9.0,10.4,0.8,scooter
+1011,bike,Hero,Xoom 110,110cc,bike_petrol,2023,,8.1,8.7,0.8,scooter
+1012,bike,Hero,Vida V1 Pro,Electric,ev,2022,,8.0,,0.9,scooter
+1013,bike,Honda,Activa 6G,110cc,bike_petrol,2020,,7.8,8.9,0.8,scooter
+1014,bike,Honda,Activa 125,125cc,bike_petrol,2019,,8.3,10.4,0.8,scooter
+1015,bike,Honda,Dio,110cc,bike_petrol,2020,,7.8,9.0,0.8,scooter
+1016,bike,Honda,Shine 125,125cc,bike_petrol,2019,,10.7,11.0,0.8,commuter
+1017,bike,Honda,SP 125,125cc,bike_petrol,2019,,10.9,10.9,0.8,commuter
+1018,bike,Honda,Unicorn,160cc,bike_petrol,2020,,13.0,14.6,0.9,commuter
+1019,bike,Honda,Hornet 2.0,184cc,bike_petrol,2020,,17.0,15.9,0.9,naked
+1020,bike,Honda,CB200X,184cc,bike_petrol,2021,,17.0,15.9,0.9,adventure
+1021,bike,Honda,CB300F,293cc,bike_petrol,2022,,24.0,25.6,1.0,naked
+1022,bike,Honda,CB350 H'ness,348cc,bike_petrol,2020,,21.0,30.0,1.0,cruiser
+1023,bike,Honda,CB350RS,348cc,bike_petrol,2021,,21.0,30.0,1.0,naked
+1024,bike,Honda,NX500,471cc,bike_petrol,2024,,47.0,43.0,1.6,adventure
+1025,bike,Honda,CBR650R,649cc,bike_petrol,2019,,94.0,63.0,2.0,sport
+1026,bike,TVS,Jupiter,110cc,bike_petrol,2019,,7.9,9.8,0.8,scooter
+1027,bike,TVS,Ntorq 125,125cc,bike_petrol,2018,,9.4,10.6,0.8,scooter
+1028,bike,TVS,Radeon,110cc,bike_petrol,2018,,8.2,8.7,0.8,commuter
+1029,bike,TVS,Star City Plus,110cc,bike_petrol,2020,,8.2,8.7,0.8,commuter
+1030,bike,TVS,Raider 125,125cc,bike_petrol,2021,,11.4,11.2,0.8,naked
+1031,bike,TVS,Apache RTR 160 2V,160cc,bike_petrol,2018,,15.8,13.9,0.9,naked
+1032,bike,TVS,Apache RTR 160 4V,160cc,bike_petrol,2018,,17.6,14.7,0.9,naked
+1033,bike,TVS,Apache RTR 200 4V,198cc,bike_petrol,2016,,20.8,17.3,0.9,naked
+1034,bike,TVS,Apache RR 310,312cc,bike_petrol,2017,,34.0,27.3,1.3,sport
+1035,bike,TVS,Apache RTR 310,312cc,bike_petrol,2023,,35.6,28.7,1.3,naked
+1036,bike,TVS,Ronin,225cc,bike_petrol,2022,,20.4,19.9,1.0,cruiser
+1037,bike,TVS,iQube,Electric,ev,2020,,5.9,33,0.9,scooter
+1038,bike,Bajaj,Platina 100,102cc,bike_petrol,2019,,7.8,8.3,0.8,commuter
+1039,bike,Bajaj,CT 110X,115cc,bike_petrol,2021,,8.6,9.8,0.8,commuter
+1040,bike,Bajaj,Pulsar 125,125cc,bike_petrol,2019,,11.8,10.8,0.8,naked
+1041,bike,Bajaj,Pulsar N125,125cc,bike_petrol,2024,,12.0,11.0,0.8,naked
+1042,bike,Bajaj,Pulsar 150,149cc,bike_petrol,2019,,14.0,13.3,0.8,naked
+1043,bike,Bajaj,Pulsar N150,149cc,bike_petrol,2023,,14.5,13.5,0.8,naked
+1044,bike,Bajaj,Pulsar N160,165cc,bike_petrol,2022,,16.0,14.7,0.9,naked
+1045,bike,Bajaj,Pulsar NS160,160cc,bike_petrol,2017,,17.2,14.6,0.9,naked
+1046,bike,Bajaj,Pulsar NS200,199cc,bike_petrol,2017,,24.5,18.7,0.9,naked
+1047,bike,Bajaj,Pulsar RS200,199cc,bike_petrol,2017,,24.5,18.7,0.9,sport
+1048,bike,Bajaj,Pulsar N250,249cc,bike_petrol,2021,,24.5,21.5,1.0,naked
+1049,bike,Bajaj,Pulsar NS400Z,373cc,bike_petrol,2024,,40.0,35.0,1.2,naked
+1050,bike,Bajaj,Avenger Street 160,160cc,bike_petrol,2019,,15.0,13.7,0.9,cruiser
+1051,bike,Bajaj,Avenger Cruise 220,220cc,bike_petrol,2019,,19.0,17.6,0.9,cruiser
+1052,bike,Bajaj,Dominar 250,248cc,bike_petrol,2020,,27.0,23.5,1.1,naked
+1053,bike,Bajaj,Dominar 400,373cc,bike_petrol,2017,,40.0,35.0,1.2,naked
+1054,bike,Bajaj,Chetak,Electric,ev,2020,,5.4,20,0.9,scooter
+1055,bike,Royal Enfield,Hunter 350,349cc,bike_petrol,2022,,20.2,27.0,1.1,naked
+1056,bike,Royal Enfield,Classic 350,349cc,bike_petrol,2021,,20.2,27.0,1.1,cruiser
+1057,bike,Royal Enfield,Bullet 350,349cc,bike_petrol,2023,,20.2,27.0,1.1,cruiser
+1058,bike,Royal Enfield,Meteor 350,349cc,bike_petrol,2020,,20.2,27.0,1.1,cruiser
+1059,bike,Royal Enfield,Goan Classic 350,349cc,bike_petrol,2024,,20.2,27.0,1.1,cruiser
+1060,bike,Royal Enfield,Scram 411,411cc,bike_petrol,2022,2024,24.3,32.0,1.1,adventure
+1061,bike,Royal Enfield,Himalayan 450,452cc,bike_petrol,2023,,40.0,40.0,1.3,adventure
+1062,bike,Royal Enfield,Guerrilla 450,452cc,bike_petrol,2024,,40.0,40.0,1.3,naked
+1063,bike,Royal Enfield,Interceptor 650,648cc,bike_petrol,2018,,47.0,52.0,1.4,naked
+1064,bike,Royal Enfield,Continental GT 650,648cc,bike_petrol,2018,,47.0,52.0,1.4,naked
+1065,bike,Royal Enfield,Super Meteor 650,648cc,bike_petrol,2023,,47.0,52.3,1.5,cruiser
+1066,bike,Royal Enfield,Shotgun 650,648cc,bike_petrol,2024,,47.0,52.3,1.5,cruiser
+1067,bike,Royal Enfield,Bear 650,648cc,bike_petrol,2024,,47.4,56.5,1.5,naked
+1068,bike,Royal Enfield,Classic 650,648cc,bike_petrol,2025,,47.0,52.3,1.5,cruiser
+1069,bike,KTM,125 Duke,124cc,bike_petrol,2018,,14.5,12.0,1.2,naked
+1070,bike,KTM,200 Duke,199cc,bike_petrol,2012,,25.0,19.3,1.2,naked
+1071,bike,KTM,250 Duke,249cc,bike_petrol,2017,,31.0,25.0,1.3,naked
+1072,bike,KTM,390 Duke,399cc,bike_petrol,2013,,44.0,39.0,1.4,naked
+1073,bike,KTM,RC 200,199cc,bike_petrol,2014,,25.0,19.2,1.2,sport
+1074,bike,KTM,RC 390,373cc,bike_petrol,2014,,43.5,37.0,1.4,sport
+1075,bike,KTM,250 Adventure,249cc,bike_petrol,2020,,30.0,25.0,1.3,adventure
+1076,bike,KTM,390 Adventure,399cc,bike_petrol,2019,,44.0,39.0,1.4,adventure
+1077,bike,Husqvarna,Vitpilen 250,249cc,bike_petrol,2024,,31.0,25.0,1.3,naked
+1078,bike,Husqvarna,Svartpilen 401,399cc,bike_petrol,2024,,45.0,39.0,1.4,naked
+1079,bike,Yamaha,FZ-S FI V3,149cc,bike_petrol,2019,,12.4,13.3,0.9,naked
+1080,bike,Yamaha,FZ-X,149cc,bike_petrol,2021,,12.4,13.3,0.9,naked
+1081,bike,Yamaha,MT-15 V2,155cc,bike_petrol,2022,,18.4,14.1,1.0,naked
+1082,bike,Yamaha,R15 V4,155cc,bike_petrol,2021,,18.4,14.2,1.0,sport
+1083,bike,Yamaha,R15M,155cc,bike_petrol,2021,,18.4,14.2,1.0,sport
+1084,bike,Yamaha,Fascino 125,125cc,bike_petrol,2021,,8.2,10.3,0.8,scooter
+1085,bike,Yamaha,RayZR 125,125cc,bike_petrol,2021,,8.2,10.3,0.8,scooter
+1086,bike,Yamaha,Aerox 155,155cc,bike_petrol,2021,,15.0,13.9,0.9,scooter
+1087,bike,Yamaha,R3,321cc,bike_petrol,2023,,42.0,29.5,1.5,sport
+1088,bike,Yamaha,MT-03,321cc,bike_petrol,2023,,42.0,29.5,1.5,naked
+1089,bike,Suzuki,Access 125,125cc,bike_petrol,2016,,8.6,10.0,0.8,scooter
+1090,bike,Suzuki,Burgman Street 125,125cc,bike_petrol,2018,,8.6,10.0,0.8,scooter
+1091,bike,Suzuki,Avenis 125,125cc,bike_petrol,2021,,8.6,10.0,0.8,scooter
+1092,bike,Suzuki,Gixxer 155,155cc,bike_petrol,2019,,13.6,13.8,0.9,naked
+1093,bike,Suzuki,Gixxer SF 250,249cc,bike_petrol,2019,,26.5,22.2,1.1,sport
+1094,bike,Suzuki,V-Strom SX 250,249cc,bike_petrol,2022,,26.5,22.2,1.1,adventure
+1095,bike,Suzuki,Hayabusa,1340cc,bike_petrol,2021,,190.0,150.0,3.0,sport
+1096,bike,Kawasaki,Ninja 300,296cc,bike_petrol,2013,,39.0,26.1,1.6,sport
+1097,bike,Kawasaki,Ninja 500,451cc,bike_petrol,2024,,45.0,42.6,1.6,sport
+1098,bike,Kawasaki,Eliminator,451cc,bike_petrol,2024,,45.0,42.6,1.6,cruiser
+1099,bike,Kawasaki,Z650,649cc,bike_petrol,2017,,68.0,64.0,1.8,naked
+1100,bike,Kawasaki,Ninja 650,649cc,bike_petrol,2017,,68.0,64.0,1.8,sport
+1101,bike,Kawasaki,Versys 650,649cc,bike_petrol,2015,,66.0,61.0,1.8,adventure
+1102,bike,Kawasaki,Z900,948cc,bike_petrol,2017,,125.0,98.6,2.2,naked
+1103,bike,Kawasaki,Ninja ZX-10R,998cc,bike_petrol,2021,,203.0,114.9,3.0,sport
+1104,bike,Triumph,Speed 400,398cc,bike_petrol,2023,,40.0,37.5,1.3,naked
+1105,bike,Triumph,Scrambler 400 X,398cc,bike_petrol,2023,,40.0,37.5,1.3,adventure
+1106,bike,Triumph,Trident 660,660cc,bike_petrol,2021,,81.0,64.0,2.0,naked
+1107,bike,Triumph,Speed Twin 900,900cc,bike_petrol,2023,,65.0,80.0,2.0,naked
+1108,bike,Triumph,Street Triple 765 RS,765cc,bike_petrol,2023,,128.0,80.0,2.4,naked
+1109,bike,BMW Motorrad,G 310 R,313cc,bike_petrol,2018,,34.0,28.0,1.4,naked
+1110,bike,BMW Motorrad,G 310 GS,313cc,bike_petrol,2018,,34.0,28.0,1.4,adventure
+1111,bike,BMW Motorrad,G 310 RR,312cc,bike_petrol,2022,,34.0,27.3,1.4,sport
+1112,bike,BMW Motorrad,R 1250 GS,1254cc,bike_petrol,2019,,136.0,143.0,3.0,adventure
+1113,bike,BMW Motorrad,S 1000 RR,999cc,bike_petrol,2019,,210.0,113.0,3.2,sport
+1114,bike,Harley-Davidson,X440,440cc,bike_petrol,2023,,27.0,38.0,1.2,naked
+1115,bike,Harley-Davidson,Nightster 975,975cc,bike_petrol,2022,,90.0,95.0,2.5,cruiser
+1116,bike,Harley-Davidson,Fat Boy 114,1868cc,bike_petrol,2018,,94.0,155.0,3.0,cruiser
+1117,bike,Jawa,42,294cc,bike_petrol,2020,,27.0,26.8,1.0,naked
+1118,bike,Jawa,350,334cc,bike_petrol,2024,,22.5,28.1,1.0,cruiser
+1119,bike,Yezdi,Roadster,334cc,bike_petrol,2022,,29.0,29.9,1.0,naked
+1120,bike,Yezdi,Adventure,334cc,bike_petrol,2022,,30.0,29.8,1.0,adventure
+1121,bike,Ducati,Scrambler Icon,803cc,bike_petrol,2019,,73.0,66.0,2.4,naked
+1122,bike,Ducati,Monster,937cc,bike_petrol,2021,,111.0,93.0,2.8,naked
+1123,bike,Ducati,Panigale V2,955cc,bike_petrol,2020,,155.0,104.0,3.2,sport
+1124,bike,Ola Electric,S1 Pro,Electric,ev,2021,,15.0,,0.9,scooter
+1125,bike,Ather,450X,Electric,ev,2020,,8.6,26,0.9,scooter
+1126,bike,Ather,Rizta,Electric,ev,2024,,5.8,22,0.9,scooter
+1127,bike,Revolt,RV400,Electric,ev,2019,,4.0,,0.9,commuter
+1128,bike,Ultraviolette,F77,Electric,ev,2022,,40.0,100,1.5,sport

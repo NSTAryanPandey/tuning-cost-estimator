@@ -1,0 +1,185 @@
+id,vehicle_class,make,model,engine_name,engine_type,year_from,year_to,stock_hp,stock_torque_nm,parts_multiplier,body_type
+1,car,Maruti Suzuki,Alto K10,1.0 K10C Petrol,petrol_na,2022,,67,89,0.8,hatchback
+2,car,Maruti Suzuki,S-Presso,1.0 K10C Petrol,petrol_na,2019,,67,89,0.8,hatchback
+3,car,Maruti Suzuki,Celerio,1.0 K10C Petrol,petrol_na,2021,,67,89,0.8,hatchback
+4,car,Maruti Suzuki,Wagon R,1.0 K10C Petrol,petrol_na,2019,,67,89,0.8,hatchback
+5,car,Maruti Suzuki,Wagon R,1.2 K12N Petrol,petrol_na,2019,,90,113,0.8,hatchback
+6,car,Maruti Suzuki,Ignis,1.2 K12M Petrol,petrol_na,2017,,83,113,0.9,hatchback
+7,car,Maruti Suzuki,Swift,1.2 K-Series Petrol,petrol_na,2018,2023,90,113,0.9,hatchback
+8,car,Maruti Suzuki,Swift,1.2 Z-Series Petrol,petrol_na,2024,,82,112,0.9,hatchback
+9,car,Maruti Suzuki,Dzire,1.2 K-Series Petrol,petrol_na,2017,2024,90,113,0.9,sedan
+10,car,Maruti Suzuki,Dzire,1.2 Z-Series Petrol,petrol_na,2024,,82,112,0.9,sedan
+11,car,Maruti Suzuki,Baleno,1.2 DualJet Petrol,petrol_na,2022,,90,113,0.9,hatchback
+12,car,Maruti Suzuki,Fronx,1.2 Petrol,petrol_na,2023,,90,113,0.9,suv
+13,car,Maruti Suzuki,Fronx,1.0 Turbo Boosterjet,petrol_turbo,2023,,100,148,0.9,suv
+14,car,Maruti Suzuki,Brezza,1.5 K15C Petrol,petrol_na,2022,,103,137,0.9,suv
+15,car,Maruti Suzuki,Ertiga,1.5 K15C Petrol,petrol_na,2022,,103,137,0.9,mpv
+16,car,Maruti Suzuki,XL6,1.5 K15C Petrol,petrol_na,2022,,103,137,0.9,mpv
+17,car,Maruti Suzuki,Grand Vitara,1.5 K15C Petrol,petrol_na,2022,,103,137,1.0,suv
+18,car,Maruti Suzuki,Jimny,1.5 K15B Petrol,petrol_na,2023,,105,134,1.0,suv
+19,car,Maruti Suzuki,Ciaz,1.5 K15 Petrol,petrol_na,2018,2025,105,138,0.9,sedan
+20,car,Maruti Suzuki,Eeco,1.2 Petrol,petrol_na,2010,,81,104,0.8,mpv
+21,car,Hyundai,Grand i10 Nios,1.2 Kappa Petrol,petrol_na,2019,,83,114,0.9,hatchback
+22,car,Hyundai,Aura,1.2 Kappa Petrol,petrol_na,2020,,83,114,0.9,sedan
+23,car,Hyundai,Exter,1.2 Kappa Petrol,petrol_na,2023,,83,114,0.9,suv
+24,car,Hyundai,i20,1.2 Kappa Petrol,petrol_na,2020,,88,115,1.0,hatchback
+25,car,Hyundai,i20 N Line,1.0 Turbo GDi,petrol_turbo,2021,,120,172,1.0,hatchback
+26,car,Hyundai,Venue,1.2 Kappa Petrol,petrol_na,2019,,83,114,1.0,suv
+27,car,Hyundai,Venue,1.0 Turbo GDi,petrol_turbo,2019,,120,172,1.0,suv
+28,car,Hyundai,Venue,1.5 CRDi Diesel,diesel_turbo,2020,,116,250,1.0,suv
+29,car,Hyundai,Venue N Line,1.0 Turbo GDi,petrol_turbo,2022,,120,172,1.0,suv
+30,car,Hyundai,Verna,1.5 MPi Petrol,petrol_na,2023,,115,144,1.0,sedan
+31,car,Hyundai,Verna,1.5 Turbo GDi,petrol_turbo,2023,,160,253,1.0,sedan
+32,car,Hyundai,Creta,1.5 MPi Petrol,petrol_na,2020,,115,144,1.0,suv
+33,car,Hyundai,Creta,1.5 Turbo GDi,petrol_turbo,2024,,160,253,1.0,suv
+34,car,Hyundai,Creta,1.5 CRDi Diesel,diesel_turbo,2020,,116,250,1.0,suv
+35,car,Hyundai,Creta N Line,1.5 Turbo GDi,petrol_turbo,2024,,160,253,1.0,suv
+36,car,Hyundai,Creta Electric,Electric,ev,2025,,171,255,1.0,suv
+37,car,Hyundai,Alcazar,1.5 Turbo GDi,petrol_turbo,2024,,160,253,1.0,suv
+38,car,Hyundai,Alcazar,1.5 CRDi Diesel,diesel_turbo,2021,,116,250,1.0,suv
+39,car,Hyundai,Tucson,2.0 Petrol,petrol_na,2022,,156,192,1.3,suv
+40,car,Hyundai,Tucson,2.0 CRDi Diesel,diesel_turbo,2022,,186,416,1.3,suv
+41,car,Hyundai,Ioniq 5,Electric,ev,2023,,217,350,1.6,suv
+42,car,Kia,Sonet,1.2 Petrol,petrol_na,2020,,83,115,1.0,suv
+43,car,Kia,Sonet,1.0 Turbo GDi,petrol_turbo,2020,,120,172,1.0,suv
+44,car,Kia,Sonet,1.5 CRDi Diesel,diesel_turbo,2020,,116,250,1.0,suv
+45,car,Kia,Syros,1.0 Turbo GDi,petrol_turbo,2025,,120,172,1.0,suv
+46,car,Kia,Syros,1.5 CRDi Diesel,diesel_turbo,2025,,116,250,1.0,suv
+47,car,Kia,Seltos,1.5 Petrol,petrol_na,2019,,115,144,1.0,suv
+48,car,Kia,Seltos,1.5 Turbo GDi,petrol_turbo,2023,,160,253,1.0,suv
+49,car,Kia,Seltos,1.5 CRDi Diesel,diesel_turbo,2019,,116,250,1.0,suv
+50,car,Kia,Carens,1.5 Petrol,petrol_na,2022,,115,144,1.0,mpv
+51,car,Kia,Carens,1.5 Turbo GDi,petrol_turbo,2023,,160,253,1.0,mpv
+52,car,Kia,Carens,1.5 CRDi Diesel,diesel_turbo,2022,,116,250,1.0,mpv
+53,car,Kia,Carnival,2.2 CRDi Diesel,diesel_turbo,2024,,193,441,1.5,mpv
+54,car,Kia,EV6,Electric,ev,2022,,229,350,1.7,suv
+55,car,Tata,Tiago,1.2 Revotron Petrol,petrol_na,2016,,86,113,0.9,hatchback
+56,car,Tata,Tigor,1.2 Revotron Petrol,petrol_na,2017,,86,113,0.9,sedan
+57,car,Tata,Altroz,1.2 Revotron Petrol,petrol_na,2020,,88,115,0.9,hatchback
+58,car,Tata,Altroz,1.2 iTurbo Petrol,petrol_turbo,2021,,110,140,0.9,hatchback
+59,car,Tata,Altroz,1.5 Revotorq Diesel,diesel_turbo,2020,,90,200,0.9,hatchback
+60,car,Tata,Punch,1.2 Revotron Petrol,petrol_na,2021,,88,115,0.9,suv
+61,car,Tata,Nexon,1.2 Turbo Revotron,petrol_turbo,2017,,120,170,1.0,suv
+62,car,Tata,Nexon,1.5 Revotorq Diesel,diesel_turbo,2017,,115,260,1.0,suv
+63,car,Tata,Curvv,1.2 Turbo Revotron,petrol_turbo,2024,,120,170,1.0,suv
+64,car,Tata,Curvv,1.2 Hyperion Turbo GDi,petrol_turbo,2024,,125,225,1.0,suv
+65,car,Tata,Curvv,1.5 Kryojet Diesel,diesel_turbo,2024,,118,260,1.0,suv
+66,car,Tata,Harrier,2.0 Kryotec Diesel,diesel_turbo,2019,,170,350,1.1,suv
+67,car,Tata,Safari,2.0 Kryotec Diesel,diesel_turbo,2021,,170,350,1.1,suv
+68,car,Tata,Tiago EV,Electric,ev,2023,,74,114,0.9,hatchback
+69,car,Tata,Punch EV,Electric,ev,2024,,122,190,1.0,suv
+70,car,Tata,Nexon EV,Electric,ev,2020,,129,215,1.0,suv
+71,car,Tata,Curvv EV,Electric,ev,2024,,167,215,1.0,suv
+72,car,Mahindra,Bolero,1.5 mHawk75 Diesel,diesel_turbo,2011,,76,210,0.9,suv
+73,car,Mahindra,Bolero Neo,1.5 mHawk100 Diesel,diesel_turbo,2021,,100,260,0.9,suv
+74,car,Mahindra,Scorpio Classic,2.2 mHawk Diesel,diesel_turbo,2022,,132,300,1.0,suv
+75,car,Mahindra,Scorpio-N,2.0 mStallion Turbo Petrol,petrol_turbo,2022,,203,380,1.1,suv
+76,car,Mahindra,Scorpio-N,2.2 mHawk Diesel,diesel_turbo,2022,,175,400,1.1,suv
+77,car,Mahindra,Thar,1.5 D117 Diesel,diesel_turbo,2023,,117,300,1.0,suv
+78,car,Mahindra,Thar,2.0 mStallion Turbo Petrol,petrol_turbo,2020,,150,320,1.0,suv
+79,car,Mahindra,Thar,2.2 mHawk Diesel,diesel_turbo,2020,,132,300,1.0,suv
+80,car,Mahindra,Thar Roxx,2.0 mStallion Turbo Petrol,petrol_turbo,2024,,177,380,1.1,suv
+81,car,Mahindra,Thar Roxx,2.2 mHawk Diesel,diesel_turbo,2024,,175,370,1.1,suv
+82,car,Mahindra,XUV 3XO,1.2 MPFi Turbo Petrol,petrol_turbo,2024,,111,200,1.0,suv
+83,car,Mahindra,XUV 3XO,1.2 TGDi Turbo Petrol,petrol_turbo,2024,,130,230,1.0,suv
+84,car,Mahindra,XUV 3XO,1.5 Diesel,diesel_turbo,2024,,117,300,1.0,suv
+85,car,Mahindra,XUV700,2.0 mStallion Turbo Petrol,petrol_turbo,2021,,200,380,1.2,suv
+86,car,Mahindra,XUV700,2.2 mHawk Diesel,diesel_turbo,2021,,185,450,1.2,suv
+87,car,Mahindra,Marazzo,1.5 Diesel,diesel_turbo,2018,,123,300,1.0,mpv
+88,car,Mahindra,XUV400,Electric,ev,2023,,150,310,1.0,suv
+89,car,Honda,Amaze,1.2 i-VTEC Petrol,petrol_na,2018,,90,110,1.0,sedan
+90,car,Honda,City,1.5 i-VTEC Petrol,petrol_na,2020,,121,145,1.0,sedan
+91,car,Honda,Elevate,1.5 i-VTEC Petrol,petrol_na,2023,,121,145,1.0,suv
+92,car,Toyota,Glanza,1.2 Petrol,petrol_na,2019,,90,113,0.9,hatchback
+93,car,Toyota,Rumion,1.5 Petrol,petrol_na,2023,,103,137,0.9,mpv
+94,car,Toyota,Urban Cruiser Taisor,1.0 Turbo Petrol,petrol_turbo,2024,,100,148,0.9,suv
+95,car,Toyota,Urban Cruiser Hyryder,1.5 Petrol,petrol_na,2022,,103,137,1.0,suv
+96,car,Toyota,Innova Crysta,2.4 Diesel,diesel_turbo,2016,,150,343,1.2,mpv
+97,car,Toyota,Innova Hycross,2.0 Petrol,petrol_na,2022,,174,205,1.2,mpv
+98,car,Toyota,Fortuner,2.7 Petrol,petrol_na,2016,,166,245,1.4,suv
+99,car,Toyota,Fortuner,2.8 Diesel,diesel_turbo,2016,,204,500,1.4,suv
+100,car,Toyota,Fortuner Legender,2.8 Diesel,diesel_turbo,2021,,204,500,1.5,suv
+101,car,Toyota,Hilux,2.8 Diesel,diesel_turbo,2022,,204,500,1.4,pickup
+102,car,Toyota,Land Cruiser 300,3.3 Twin-Turbo Diesel,diesel_turbo,2022,,309,700,2.5,suv
+103,car,Skoda,Kylaq,1.0 TSI,petrol_turbo,2025,,115,178,1.1,suv
+104,car,Skoda,Slavia,1.0 TSI,petrol_turbo,2022,,115,178,1.1,sedan
+105,car,Skoda,Slavia,1.5 TSI,petrol_turbo,2022,,150,250,1.1,sedan
+106,car,Skoda,Kushaq,1.0 TSI,petrol_turbo,2021,,115,178,1.1,suv
+107,car,Skoda,Kushaq,1.5 TSI,petrol_turbo,2021,,150,250,1.1,suv
+108,car,Skoda,Octavia,2.0 TSI,petrol_turbo,2021,2023,190,320,1.3,sedan
+109,car,Skoda,Octavia RS,2.0 TSI,petrol_turbo,2025,,265,370,1.4,sedan
+110,car,Skoda,Superb,2.0 TSI,petrol_turbo,2022,,190,320,1.5,sedan
+111,car,Skoda,Kodiaq,2.0 TSI,petrol_turbo,2022,,190,320,1.4,suv
+112,car,Volkswagen,Polo,1.0 MPI Petrol,petrol_na,2019,2022,76,95,1.0,hatchback
+113,car,Volkswagen,Polo,1.0 TSI (GT),petrol_turbo,2019,2022,110,175,1.0,hatchback
+114,car,Volkswagen,Vento,1.0 TSI,petrol_turbo,2020,2022,110,175,1.0,sedan
+115,car,Volkswagen,Virtus,1.0 TSI,petrol_turbo,2022,,115,178,1.1,sedan
+116,car,Volkswagen,Virtus,1.5 TSI,petrol_turbo,2022,,150,250,1.1,sedan
+117,car,Volkswagen,Taigun,1.0 TSI,petrol_turbo,2021,,115,178,1.1,suv
+118,car,Volkswagen,Taigun,1.5 TSI,petrol_turbo,2021,,150,250,1.1,suv
+119,car,Volkswagen,Tiguan,2.0 TSI,petrol_turbo,2021,,190,320,1.4,suv
+120,car,Volkswagen,Golf GTI,2.0 TSI,petrol_turbo,2025,,265,370,1.5,hatchback
+121,car,MG,Comet EV,Electric,ev,2023,,42,110,0.9,hatchback
+122,car,MG,Astor,1.5 Petrol,petrol_na,2021,,110,144,1.0,suv
+123,car,MG,Hector,1.5 Turbo Petrol,petrol_turbo,2019,,143,250,1.1,suv
+124,car,MG,Hector,2.0 Diesel,diesel_turbo,2019,,170,350,1.1,suv
+125,car,MG,Hector Plus,1.5 Turbo Petrol,petrol_turbo,2020,,143,250,1.1,suv
+126,car,MG,Gloster,2.0 Twin-Turbo Diesel,diesel_turbo,2020,,215,478,1.4,suv
+127,car,MG,ZS EV,Electric,ev,2020,,176,280,1.2,suv
+128,car,MG,Windsor EV,Electric,ev,2024,,136,200,1.0,mpv
+129,car,Renault,Kwid,1.0 SCe Petrol,petrol_na,2019,,68,91,0.8,hatchback
+130,car,Renault,Triber,1.0 Energy Petrol,petrol_na,2019,,72,96,0.8,mpv
+131,car,Renault,Kiger,1.0 Energy Petrol,petrol_na,2021,,72,96,0.9,suv
+132,car,Renault,Kiger,1.0 Turbo Petrol,petrol_turbo,2021,,100,160,0.9,suv
+133,car,Nissan,Magnite,1.0 B4D Petrol,petrol_na,2020,,72,96,0.9,suv
+134,car,Nissan,Magnite,1.0 Turbo Petrol,petrol_turbo,2020,,100,160,0.9,suv
+135,car,Citroen,C3,1.2 Puretech Petrol,petrol_na,2022,,82,115,0.9,hatchback
+136,car,Citroen,C3,1.2 Turbo Puretech,petrol_turbo,2023,,110,205,0.9,hatchback
+137,car,Citroen,Basalt,1.2 Turbo Puretech,petrol_turbo,2024,,110,205,0.9,suv
+138,car,Citroen,C3 Aircross,1.2 Turbo Puretech,petrol_turbo,2023,,110,205,0.9,suv
+139,car,Citroen,eC3,Electric,ev,2023,,57,143,0.9,hatchback
+140,car,Jeep,Compass,2.0 Multijet Diesel,diesel_turbo,2017,,170,350,1.4,suv
+141,car,Jeep,Meridian,2.0 Multijet Diesel,diesel_turbo,2022,,170,350,1.4,suv
+142,car,Jeep,Wrangler,2.0 Turbo Petrol,petrol_turbo,2021,,268,400,2.0,suv
+143,car,Jeep,Grand Cherokee,2.0 Turbo Petrol,petrol_turbo,2022,,272,400,2.2,suv
+144,car,Ford,Figo,1.2 Petrol,petrol_na,2019,2021,96,120,0.9,hatchback
+145,car,Ford,EcoSport,1.5 Petrol,petrol_na,2018,2021,123,150,1.0,suv
+146,car,Ford,EcoSport,1.5 Diesel,diesel_turbo,2018,2021,100,215,1.0,suv
+147,car,Ford,Endeavour,2.0 EcoBlue Diesel,diesel_turbo,2019,2022,170,420,1.3,suv
+148,car,Ford,Mustang,5.0 V8 Petrol,petrol_na,2016,2021,401,515,2.5,sedan
+149,car,Isuzu,D-Max V-Cross,1.9 Diesel,diesel_turbo,2021,,163,360,1.1,pickup
+150,car,Force,Gurkha,2.6 Diesel,diesel_turbo,2021,,140,320,1.0,suv
+151,car,BYD,Atto 3,Electric,ev,2022,,204,310,1.4,suv
+152,car,BYD,Seal,Electric,ev,2024,,313,360,1.8,sedan
+153,car,BMW,2 Series Gran Coupe,220i 2.0 Turbo,petrol_turbo,2021,,178,280,1.7,sedan
+154,car,BMW,3 Series,330i 2.0 Turbo,petrol_turbo,2019,,258,400,1.8,sedan
+155,car,BMW,3 Series,M340i 3.0 Turbo,petrol_turbo,2022,,374,500,2.0,sedan
+156,car,BMW,5 Series,530Li 2.0 Turbo,petrol_turbo,2024,,258,400,2.0,sedan
+157,car,BMW,X1,sDrive18i 1.5 Turbo,petrol_turbo,2023,,136,230,1.7,suv
+158,car,BMW,X3,xDrive20 2.0 Turbo,petrol_turbo,2024,,190,310,1.9,suv
+159,car,BMW,X5,xDrive40i 3.0 Turbo,petrol_turbo,2023,,381,540,2.2,suv
+160,car,BMW,X5,xDrive30d 3.0 Diesel,diesel_turbo,2023,,298,650,2.2,suv
+161,car,BMW,M4 Competition,3.0 Twin-Turbo,petrol_turbo,2021,,510,650,2.6,sedan
+162,car,BMW,i4,Electric,ev,2022,,340,430,2.0,sedan
+163,car,Mercedes-Benz,A-Class Limousine,A200 1.3 Turbo,petrol_turbo,2021,,163,250,1.7,sedan
+164,car,Mercedes-Benz,C-Class,C200 1.5 Turbo,petrol_turbo,2022,,204,300,1.8,sedan
+165,car,Mercedes-Benz,C-Class,C300 2.0 Turbo,petrol_turbo,2022,,258,400,1.9,sedan
+166,car,Mercedes-Benz,E-Class,E200 2.0 Turbo,petrol_turbo,2024,,197,320,2.0,sedan
+167,car,Mercedes-Benz,GLA,GLA200 1.3 Turbo,petrol_turbo,2021,,163,270,1.7,suv
+168,car,Mercedes-Benz,GLC,GLC300 2.0 Turbo,petrol_turbo,2023,,258,400,2.0,suv
+169,car,Mercedes-Benz,GLE,GLE450 3.0 Turbo,petrol_turbo,2023,,381,500,2.3,suv
+170,car,Mercedes-Benz,AMG C43,2.0 Turbo,petrol_turbo,2023,,408,500,2.5,sedan
+171,car,Mercedes-Benz,G-Class,G400d 3.0 Diesel,diesel_turbo,2024,,330,700,3.0,suv
+172,car,Audi,A4,2.0 TFSI,petrol_turbo,2021,,204,320,1.8,sedan
+173,car,Audi,A6,45 TFSI 2.0,petrol_turbo,2021,,265,370,2.0,sedan
+174,car,Audi,Q3,2.0 TFSI,petrol_turbo,2022,,190,320,1.8,suv
+175,car,Audi,Q5,2.0 TFSI,petrol_turbo,2021,,265,370,2.0,suv
+176,car,Audi,Q7,3.0 TFSI,petrol_turbo,2022,,340,500,2.3,suv
+177,car,Audi,RS5,2.9 TFSI Twin-Turbo,petrol_turbo,2021,,450,600,2.6,sedan
+178,car,Volvo,XC40,B4 2.0 Turbo,petrol_turbo,2022,,197,300,1.8,suv
+179,car,Volvo,XC60,B5 2.0 Turbo,petrol_turbo,2022,,250,350,2.0,suv
+180,car,Mini,Cooper S,2.0 Turbo,petrol_turbo,2024,,204,300,1.8,hatchback
+181,car,Land Rover,Defender 110,P300 2.0 Turbo,petrol_turbo,2020,,300,400,2.4,suv
+182,car,Land Rover,Range Rover Evoque,2.0 Turbo Petrol,petrol_turbo,2021,,249,365,2.2,suv
+183,car,Porsche,Macan,2.0 Turbo,petrol_turbo,2022,,265,400,2.6,suv
+184,car,Porsche,911 Carrera,3.0 Twin-Turbo,petrol_turbo,2020,,385,450,3.0,sedan
