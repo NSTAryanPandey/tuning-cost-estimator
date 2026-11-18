@@ -127,11 +127,10 @@ class SupabaseRepository:
     def __init__(self, url: str, key: str):
         import httpx  # imported here so local mode doesn't need it
 
-        self._http = httpx.Client(
-            base_url=url.rstrip("/") + "/rest/v1",
-            headers={"apikey": key, "Authorization": f"Bearer {key}"},
-            timeout=10,
-        )
+        headers = {"apikey": key}
+        if key.startswith("eyJ"):                       # legacy service_role key is a JWT: also send it as a Bearer token
+            headers["Authorization"] = f"Bearer {key}"   # new "sb_secret_..." keys go in the apikey header only
+        self._http = httpx.Client(base_url=url.rstrip("/") + "/rest/v1", headers=headers, timeout=10)
         self._loaded_at = 0.0
         self.vehicles = self.stage_rules = self.parts = self.labour_rates = []
 
