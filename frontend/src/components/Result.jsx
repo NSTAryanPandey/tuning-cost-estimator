@@ -5,6 +5,7 @@ import Breakdown from './Breakdown.jsx';
 import BudgetPlanner from './BudgetPlanner.jsx';
 import CostChart from './CostChart.jsx';
 import DynoChart from './DynoChart.jsx';
+import EngineSound from './EngineSound.jsx';
 import SaveToGarage from './SaveToGarage.jsx';
 import StageCard from './StageCard.jsx';
 
@@ -58,6 +59,7 @@ export default function Result({ result, user, onNeedLogin, onGoGarage }) {
             ))}
           </div>
           <DynoChart vehicle={v} stages={result.stages} />
+          <EngineSound vehicle={v} stages={result.stages} />
           <CostChart stages={result.stages} />
           <BudgetPlanner vehicle={v} city={result.city} />
           <Breakdown stage={result.stages.find((s) => s.stage === selected)} />
