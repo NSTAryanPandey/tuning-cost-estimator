@@ -16,7 +16,7 @@ from fastapi import Depends, FastAPI, Header, HTTPException, Query, Response
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
-from . import auth
+from . import auth, photos
 from .budget import plan
 from .pricing import estimate
 from .repository import LocalRepository, SupabaseRepository
@@ -145,6 +145,19 @@ def search(q: str = Query(..., min_length=1, max_length=60), vehicle_class: Vehi
     return [{"vehicle_id": v["id"], "vehicle_class": v.get("vehicle_class"), "make": v["make"], "model": v["model"],
              "engine_name": v["engine_name"], "engine_type": v["engine_type"], "year_from": v["year_from"],
              "year_to": v["year_to"], "stock_hp": v["stock_hp"], "body_type": v.get("body_type")} for _, v in scored[:limit]]
+
+
+@app.get("/api/photo/{vehicle_id}")
+def vehicle_photo(vehicle_id: int, response: Response) -> dict:
+    """A real, freely licensed photo of the model with its credit, or {"photo": null}."""
+    v = next((x for x in repo.catalogue().vehicles if x["id"] == vehicle_id), None)
+    if v is None:
+        raise HTTPException(404, "Vehicle not found")
+    if v.get("image_url"):                                  # your own photo set in the CSV wins
+        return {"photo": {"url": v["image_url"], "article": f"{v['make']} {v['model']}", "source": "own"}}
+    photo = photos.find_photo(v["make"], v["model"])
+    response.headers["Cache-Control"] = "public, max-age=86400"
+    return {"photo": photo}
 
 
 @app.get("/api/cities")

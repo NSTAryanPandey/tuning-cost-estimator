@@ -45,6 +45,7 @@ export const api = {
   years: (vehicle_class, make, model) => request('/api/years' + q({ vehicle_class, make, model })),
   engines: (vehicle_class, make, model, year) => request('/api/engines' + q({ vehicle_class, make, model, year })),
   cities: () => request('/api/cities'),
+  photo: (vehicle_id) => request('/api/photo/' + vehicle_id),
   search: (text, vehicle_class) => request('/api/search' + q(vehicle_class ? { q: text, vehicle_class } : { q: text })),
   budget: (vehicle_id, city, budget, basis) => request('/api/budget', { method: 'POST', body: JSON.stringify({ vehicle_id, city, budget, basis }) }),
   estimate: (vehicle_id, city) => request('/api/estimate', { method: 'POST', body: JSON.stringify({ vehicle_id, city }) }),

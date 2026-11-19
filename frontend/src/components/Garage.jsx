@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { api } from '../api.js';
 import { num, range, years } from '../format.js';
 import CarImage from './CarImage.jsx';
+import VehiclePhoto from './VehiclePhoto.jsx';
 
 // "My Garage": the vehicles a logged-in user saved, with today's estimate for their target stage.
 export default function Garage({ user, onOpen, onLoggedOut }) {
@@ -48,7 +49,7 @@ export default function Garage({ user, onOpen, onLoggedOut }) {
         {items?.map((i) => (
           <article key={i.id} className="rounded-2xl border border-zinc-800 bg-zinc-900/60 p-5">
             <div className="flex items-center gap-4">
-              <CarImage vehicle={i.vehicle ?? {}} className="h-16 w-32 shrink-0" />
+              {i.vehicle ? <VehiclePhoto vehicle={i.vehicle} className="h-20 w-32 shrink-0" /> : <CarImage vehicle={{}} className="h-16 w-32 shrink-0" />}
               <div className="min-w-0">
                 <h3 className="truncate font-semibold text-zinc-100">{i.nickname || (i.vehicle ? `${i.vehicle.make} ${i.vehicle.model}` : 'Vehicle removed')}</h3>
                 {i.vehicle && (

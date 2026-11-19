@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { years } from '../format.js';
-import CarImage from './CarImage.jsx';
+import VehiclePhoto from './VehiclePhoto.jsx';
 import Breakdown from './Breakdown.jsx';
 import BudgetPlanner from './BudgetPlanner.jsx';
 import CostChart from './CostChart.jsx';
@@ -28,7 +28,7 @@ export default function Result({ result, user, onNeedLogin, onGoGarage }) {
     <div className="space-y-5">
       <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
         <div className="flex items-center gap-4 sm:gap-6">
-          <CarImage vehicle={v} className="h-20 w-40 shrink-0 sm:h-24 sm:w-48" />
+          <VehiclePhoto vehicle={v} className="h-28 w-44 shrink-0 sm:h-36 sm:w-60" />
           <div>
           <p className="text-sm text-zinc-400">Estimate for</p>
           <h2 className="text-2xl font-bold text-zinc-50 sm:text-3xl">{v.make} {v.model}</h2>

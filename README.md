@@ -53,7 +53,9 @@ Engine figures are approximate manufacturer numbers and may be out of date for s
 ## Car and bike pictures
 
 Each vehicle shows an original side-view outline for its body type (cars: hatchback, sedan, SUV, MPV, pickup; bikes: scooter, commuter, naked, sport, cruiser, adventure), drawn in SVG (`frontend/src/components/CarImage.jsx`) and coloured per brand.
-To show a real photo instead, set `image_url` for that vehicle. Use your own photos or ones you're allowed to use (for example Creative Commons images, with credit). Don't copy carmaker or website photos without permission.
+**Real photos:** the results page and My Garage show a real photo of the model from **Wikimedia Commons**. Only freely licensed images are used (Creative Commons or public domain, via Wikipedia's `pilicense=free`), and each photo shows its required credit (photographer, licence, link to the original). The photo shows the model, which may be a different year or market version; the caption names the Wikipedia article it came from. If no free photo exists, the outline is shown (`backend/app/photos.py`, endpoint `GET /api/photo/{vehicle_id}`).
+
+To use your own photo for a vehicle, set `image_url` in the CSV. Don't copy carmaker or website photos without permission.
 
 ## Tech stack (zero cost)
 
